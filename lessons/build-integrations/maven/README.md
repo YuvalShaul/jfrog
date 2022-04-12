@@ -14,3 +14,6 @@ What happens when you click the "download" button?
 
 [todo] check about "cleanup Repository References in POMs"  
     
+[todo] check about the "artifactory maven plugin"
+- It can send build information to artifactory
+
