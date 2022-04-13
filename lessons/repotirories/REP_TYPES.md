@@ -18,9 +18,12 @@
 - A virtual rep. is not a remote rep.
 - It aggregates several repositories with the same package type under a common URL
 - These can be local, remote, and also virtual.
+- Benefits:
+  - It simplifies the configurations of users
+  - The list of repositories may change over time
 - There CAN be [Generic Virtual Repositories](https://www.jfrog.com/confluence/display/JFROG/Repository+Management).  
 By their nature, Virtual Repositories whose package type has been specified as Generic can aggregate repositories of any type, however generic virtual repositories do not maintain any metadata.
-- Virtual repository seach (resolution) order:
+- [Virtual repository search (resolution) order](https://www.jfrog.com/confluence/display/JFROG/Repository+Management#RepositoryManagement-VirtualResolutionOrder):
   - Order of repository types:
     - **local**
     - **remote  repository caches**
@@ -28,3 +31,7 @@ By their nature, Virtual Repositories whose package type has been specified as G
   - Order within a single repository type:
     - the order in which they are listed in the configuration
   - For a virtual repository, you can see the effective search and resolution order in the Included Repositories list view in the Basic settings tab.
+
+## Federated Repositories
+
+- 
