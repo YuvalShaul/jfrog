@@ -9,3 +9,6 @@ We can create the JFROG_HOME env var to point there (not done by default).
 **JFROG_HOME/<product>/app**
 - The **Data** directory is at:  
 **JFROG_HOME/<product>/var**
+- Regarding the /opt directory:  
+According to the Filesystem Hierarchy Standard, /opt is for “the installation of add-on application software packages”.
+
