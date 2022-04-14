@@ -9,5 +9,5 @@ which is the same as:
 
 ## Rest Queries
 
-- **curl -u admin:Isaac123 http://artifactory.t5.devopsherpas.com/artifactory/api/system**
-- **curl -u admin:Isaac123 http://artifactory.t5.devopsherpas.com/artifactory/api/storageinfo**
+- **curl -u admin:"jdurls8J(#Yt" http://artifactory.t5.devopsherpas.com/artifactory/api/system**
+- **curl -u admin:"jdurls8J(#Yt" http://artifactory.t5.devopsherpas.com/artifactory/api/storageinfo**
