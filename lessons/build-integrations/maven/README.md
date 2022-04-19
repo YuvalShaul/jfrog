@@ -1,3 +1,26 @@
+# Maven Integration
+
+## Setting the repositor(ies) 
+
+- Use the set-me-up button on the virtual maven
+- Use encrypted password
+- Create and download **settings.xml** into ~/.m2
+- 
+
+## Commands
+
+- Install a package:  
+**mvn install**  (will use seetings.xml in ~/.ms)  
+    or
+**mvn install -s settings.xml**   (specify your own settings file)
+- Compile your package:  
+mvn compile  
+
+Demo in class:  
+- Download from a remote central maven, by ..   
+  - Remove slf4j
+- Deploy:  
+**mvn deploy**
 
 
 Maven if the oldest and most used in Artifactory.  
