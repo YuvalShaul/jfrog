@@ -32,6 +32,11 @@ By their nature, Virtual Repositories whose package type has been specified as G
     - the order in which they are listed in the configuration
   - For a virtual repository, you can see the effective search and resolution order in the Included Repositories list view in the Basic settings tab.
 
+
+## Priority Resolution
+
+- 
+
 ## Federated Repositories
 
 - 
