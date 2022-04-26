@@ -14,4 +14,4 @@ Here are some uses of curl tool:
 ## Demos (user/password authentication)
 
 - A **ping**:  
-curl -u yuval:yuval  http://artifactory.t1.devopsherpas.com/artifactory/api/system/ping
+curl -u yuval:yuval  http://artifactory.t5.devopsherpas.com/artifactory/api/system/ping
