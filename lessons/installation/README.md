@@ -13,3 +13,6 @@ We can create the JFROG_HOME env var to point there (not done by default).
 - Regarding the /opt directory:  
 According to the Filesystem Hierarchy Standard, /opt is for “the installation of add-on application software packages”.
 
+- System Smoke Test:  
+**curl -u yuval:yuval http://artifactory.t5.devopsherpas.com/artifactory/api/system**
+- 
