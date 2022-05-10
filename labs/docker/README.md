@@ -9,7 +9,7 @@
   - Configure the local repository as the default deployment repository
 - Add the new virtual repository to your **/etc/hosts** file.  
 Example:  
-**34.238.65.31 artifactory.t5.devopsherpas.com  virtual-docker.artifactory.t5.devopsherpas.com**
+**34.238.65.31 artifactory.t5.devopsherpas.com  docker-virtual.artifactory.t5.devopsherpas.com**
 - Make sure your HTTP Settings are correct:  
 Administration/Artifactory/HTTP settings:  
   - Access Method:  Sub Domain  
