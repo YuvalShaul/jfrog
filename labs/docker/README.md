@@ -20,7 +20,7 @@ Administration/Artifactory/HTTP settings:
 - Add new name to insecure-registries in docker configuration: (since you're not going to use https)
 /etc/docker/daemon.json :  
   {  
-  "insecure-registries" : ["virtual-docker.artifactory.t5.devopsherpas.com"]  
+  "insecure-registries" : ["docker-virtual.artifactory.t5.devopsherpas.com"]  
   }  
 - Restart docker so that it will take effect:  
 **systemctl restart docker**
