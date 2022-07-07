@@ -4,6 +4,15 @@
 
 **https://www.jfrog.com/confluence/display/JFROG/Xray+Security+and+Compliance**
 
+## IDE integration
+
+**https://www.jfrog.com/confluence/display/JFROG/IDE+Integration**
+
+## Installation
+Installation:
+  **https://www.jfrog.com/confluence/display/JFROG/Installing+Xray**
+Master key
+  **/opt/jfrog/xray/var/etc/security/master.key**
 
 ## Database
 
