@@ -1,5 +1,9 @@
 
 
+## XRay Architecture
+
+**https://www.jfrog.com/confluence/display/JFROG/Xray+Security+and+Compliance**
+
 
 ## Database
 
