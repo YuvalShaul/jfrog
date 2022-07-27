@@ -42,6 +42,7 @@ To browse the content of central maven repository, maven community has provided 
 Sometimes, Maven does not find a mentioned dependency in central repository as well. It then stops the build process and output error message to console. To prevent such situation, Maven provides concept of Remote Repository, which is developer's own custom repository containing required libraries or other project jars.
 
 For example, using below mentioned POM.xml, Maven will download dependency (not available in central repository) from Remote Repositories mentioned in the same pom.xml.  
+(notice the **repositories** section)
 
 ```
 <project xmlns = "http://maven.apache.org/POM/4.0.0"
