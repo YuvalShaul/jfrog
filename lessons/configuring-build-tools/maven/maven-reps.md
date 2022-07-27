@@ -43,6 +43,7 @@ Sometimes, Maven does not find a mentioned dependency in central repository as w
 
 For example, using below mentioned POM.xml, Maven will download dependency (not available in central repository) from Remote Repositories mentioned in the same pom.xml.  
 
+```
 <project xmlns = "http://maven.apache.org/POM/4.0.0"
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0
@@ -69,3 +70,4 @@ For example, using below mentioned POM.xml, Maven will download dependency (not 
       </repository>
    </repositories>
 </project>
+```
