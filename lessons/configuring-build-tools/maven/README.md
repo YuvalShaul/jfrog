@@ -1,6 +1,6 @@
 # Maven Integration
 
-Read about [maven repositories]()
+Read about [maven repositories](https://github.com/YuvalShaul/jfrog/tree/master/lessons/configuring-build-tools/maven/maven-reps.md)
 ## Setting the repositor(ies) 
 
 - Use the set-me-up button on the virtual maven
