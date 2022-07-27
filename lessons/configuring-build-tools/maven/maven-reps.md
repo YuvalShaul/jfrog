@@ -21,3 +21,18 @@ Maven local repository keeps your project's all dependencies (library jars, plug
 Maven local repository by default get created by Maven in %USER_HOME% directory.   
 On my linux I could find the local repository at:   
 **~/.m2**
+
+
+## Central Repository
+
+Maven central repository is repository provided by Maven community. It contains a large number of commonly used libraries.
+
+When Maven does not find any dependency in local repository, it starts searching in central repository using following URL − https://repo1.maven.org/maven2/
+
+Key concepts of Central repository are as follows −
+
+    This repository is managed by Maven community.
+    It is not required to be configured.
+    It requires internet access to be searched.
+
+To browse the content of central maven repository, maven community has provided a URL − https://search.maven.org/#browse. Using this library, a developer can search all the available libraries in central repository.
