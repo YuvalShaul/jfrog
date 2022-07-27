@@ -36,3 +36,36 @@ Key concepts of Central repository are as follows −
     It requires internet access to be searched.
 
 To browse the content of central maven repository, maven community has provided a URL − https://search.maven.org/#browse. Using this library, a developer can search all the available libraries in central repository.
+
+## Remote Repository
+
+Sometimes, Maven does not find a mentioned dependency in central repository as well. It then stops the build process and output error message to console. To prevent such situation, Maven provides concept of Remote Repository, which is developer's own custom repository containing required libraries or other project jars.
+
+For example, using below mentioned POM.xml, Maven will download dependency (not available in central repository) from Remote Repositories mentioned in the same pom.xml.  
+
+<project xmlns = "http://maven.apache.org/POM/4.0.0"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://maven.apache.org/POM/4.0.0
+   http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>com.companyname.projectgroup</groupId>
+   <artifactId>project</artifactId>
+   <version>1.0</version>
+   <dependencies>
+      <dependency>
+         <groupId>com.companyname.common-lib</groupId>
+         <artifactId>common-lib</artifactId>
+         <version>1.0.0</version>
+      </dependency>
+   <dependencies>
+   <repositories>
+      <repository>
+         <id>companyname.lib1</id>
+         <url>http://download.companyname.org/maven2/lib1</url>
+      </repository>
+      <repository>
+         <id>companyname.lib2</id>
+         <url>http://download.companyname.org/maven2/lib2</url>
+      </repository>
+   </repositories>
+</project>
