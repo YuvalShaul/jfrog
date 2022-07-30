@@ -9,6 +9,12 @@ The cli v2. Both are distributed, but updates will go to v2 only.
 changes:
 - 
 
+## Configure
+
+- Download the cli:  
+- Run the configuration:  
+**jfrog  config**
+- 
 
 ## Profile examples
 

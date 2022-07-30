@@ -2,4 +2,5 @@
 
 ## The JFROG Platform
 
-Here 
+Overview:
+  **https://www.jfrog.com/confluence/display/JFROG/JFrog+Platform+Overview**
