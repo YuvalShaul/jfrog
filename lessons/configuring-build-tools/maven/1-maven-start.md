@@ -4,7 +4,7 @@
 **mvn --version**
 - If it is not installed, use [this link](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) to see installation instructions.
 - In the result you can see the maven installation directory (**/usr/share/maven** in my Ubuntu).
-- 
+
 
 ## Maven project
 
@@ -14,6 +14,7 @@
 CD into the directory:  
 **cd my-app**
 - Here is the standard project structure:  
+```
 my-app  
 |-- pom.xml  
 `-- src  
@@ -29,6 +30,6 @@ my-app
                 `-- mycompany  
                     `-- app  
                         `-- AppTest.java  
+```
 
-## The POM
 
