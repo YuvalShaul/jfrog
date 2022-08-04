@@ -1,6 +1,3 @@
-
-
-
 ## Maven installation
 
 - Make sure maven is installed:  
@@ -8,7 +5,6 @@
 - If it is not installed, use [this link](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) to see installation instructions.
 - In the result you can see the maven installation directory (**/usr/share/maven** in my Ubuntu).
 - 
-
 
 ## Maven project
 
