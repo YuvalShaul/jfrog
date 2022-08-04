@@ -6,7 +6,7 @@ Read about [maven repositories](https://github.com/YuvalShaul/jfrog/tree/master/
 - Use the set-me-up button on the virtual maven
 - Use encrypted password
 - Create and download **settings.xml** into ~/.m2
-- 
+
 
 ## Commands
 
