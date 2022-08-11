@@ -19,3 +19,7 @@ Here are some uses of curl tool:
 **curl -u yuval:'Yuval123#' http://artifactory.t5.devopsherpas.com/artifactory/api/system**
 - Deploy a file with properties:  
 **curl -T file.txt -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt;prop1=val1'**
+- Download a file:  
+**curl  -uyuval:'Yuval123#' "http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt"**
+- Setting some properties on a directory using matrix parameters:  
+**curl -X PUT -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/api/storage/maven-dev-local/com?properties=os=win,linux;qa=done&recursive=1'**
