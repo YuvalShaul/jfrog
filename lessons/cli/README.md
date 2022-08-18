@@ -8,8 +8,13 @@
 
 ## CLI Environment Variables
 
-- CI=  
-If true, disables interactive prompts and progress bar.
+- CI  
+If true, disables interactive prompts and progress bar.  
+(default: false)
+**export CI=true**
+- Log level:  INFO/ERROR/DEBUG  
+example:  
+**export JFROG_CLI_LOG_LEVEL=DEBUG**
 - More environment variables [here](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-EnvironmentVariables)
 
 ## Configure
