@@ -29,3 +29,10 @@ jfrog config remove
 
 - download  
 jfrog rt download \<file\>
+
+
+## Creating builds:
+
+- Basic creation of a build, with no info:  
+**jfrog rt bp YuvBuild 1**
+- For a detailed video see [here](https://www.youtube.com/watch?v=n9nAl4ofUfs)
