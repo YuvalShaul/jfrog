@@ -36,6 +36,17 @@ example:
 - Download multiple files:  
 **jf rt dl  generic-local/new/\***
 
+## Search
+
+- To search files:
+**jf rt s --spec=./search/spec1.txt**
+
+## Copy/remove
+- Copying files example:  
+**jf rt cp generic-local/new/thefile  generic-local/new2/thefile**
+- Moving file example:  
+**jf rt mv generic-local/new/thefile2 generic-local/new2/thefile2**
+
 
 
 ## Creating builds:
