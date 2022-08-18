@@ -1,5 +1,5 @@
 
-
+# The jfrog cli
 
 ## CLI Environment Variables
 
@@ -11,7 +11,7 @@ changes:
 
 ## Configure
 
-- Download the cli:  
+- Download and install the cli - see [here](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-General).  
 - Run the configuration:  
 **jfrog  config**
 - 
