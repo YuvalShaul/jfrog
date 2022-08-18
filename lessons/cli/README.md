@@ -30,9 +30,12 @@ example:
 ## Files
 
 - uoload a file:  
-**frog rt u \<file name\>**
+**jf rt u ./myfile.txt  generic-local/new/thefile**
 - download a file:  
-**jfrog rt download \<file name\>**
+**jf rt dl  generic-local/new/thefile**
+- Download multiple files:  
+**jf rt dl  generic-local/new/\***
+
 
 
 ## Creating builds:
