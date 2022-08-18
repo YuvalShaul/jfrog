@@ -1,13 +1,16 @@
 
 # The jfrog cli
 
+## CLI versions
+- The current verion is cli v2.
+- Both versions (v1, v2) are distributed, but updates will go to v2 only.
+- See changes [here](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-ListofchangesinJFrogCLIv2)
+
 ## CLI Environment Variables
 
-- CI=
-
-The cli v2. Both are distributed, but updates will go to v2 only.  
-changes:
-- 
+- CI=  
+If true, disables interactive prompts and progress bar.
+- More environment variables [here](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-EnvironmentVariables)
 
 ## Configure
 
