@@ -21,22 +21,18 @@ example:
 
 - Download and install the cli - see [here](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-General).  
 - Run the configuration:  
-**jfrog  config**
-- 
-
-## Profile examples
-
-- show  
-jfrog config show
-- add  
-jfrog config add
-- remove  
-jfrog config remove
+**jfrog  config add  <server ID>**
+- Show:  
+**jfrog config show  <server ID>**
+- Remove:  
+**jfrog config remove <server ID>**
 
 ## Files
 
-- download  
-jfrog rt download \<file\>
+- uoload a file:  
+**frog rt u \<file name\>**
+- download a file:  
+**jfrog rt download \<file name\>**
 
 
 ## Creating builds:
