@@ -6,6 +6,14 @@
 (including multiple keys)
 
 
+## Create a Release Bundle
+
+- We have a maven application inside maven-dev-local repository
+- Specify the repository name in the repository build
+- Specify:  
+**maven-dev-local/mycompany/app/\***  
+in the **include artifact path patterns**
+
 
 ## Smart Remote Repositories
 
