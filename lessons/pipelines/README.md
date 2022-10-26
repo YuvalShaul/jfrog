@@ -15,3 +15,8 @@
 
 
  sdemo/pipelines
+
+ ## Node Pools
+
+ - Link:  
+ [managing node pools](https://www.jfrog.com/confluence/display/JFROG/Managing+Pipelines+Node+Pools)
