@@ -12,18 +12,20 @@ A Pipeline Source represents a source control repository (such as GitHub or BitB
 
 ## Pipelines demos
 
-- [pipelines github demo repository](https://github.com/sdemo/pipelines)
-- [pipelines simple example](https://github.com/jfrog/jfrog-pipelines-simple-example)
-
- sdemo/pipelines
+- A simple basic [simple pipelines source repository](https://github.com/jfrog/jfrog-pipelines-simple-example)
+- A large example of [pipelines source repository](https://github.com/sdemo/pipelines)
 
  ## Node Pools
 
  - Link:  
  [managing node pools](https://www.jfrog.com/confluence/display/JFROG/Managing+Pipelines+Node+Pools)
 
-
  ## Integrations
 
  - Get access token from GitHub:  
  settings->Developer Settings->Personal access tokens
+
+
+ ## Runtimes
+
+ - [A list of runtime standard images](https://www.jfrog.com/confluence/display/JFROG/Runtime+Images)
