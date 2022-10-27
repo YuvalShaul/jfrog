@@ -13,7 +13,7 @@ A Pipeline Source represents a source control repository (such as GitHub or BitB
 ## Pipelines demos
 
 - [pipelines github demo repository](https://github.com/sdemo/pipelines)
-
+- [pipelines simple example](https://github.com/jfrog/jfrog-pipelines-simple-example)
 
  sdemo/pipelines
 
