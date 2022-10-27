@@ -7,7 +7,9 @@
 [Introduction to Pipelines on JFrog Platform](https://www.youtube.com/watch?v=3GvUKcpzmGA)
 - Integrations:  
 [GitHub Integration](https://www.jfrog.com/confluence/display/JFROG/GitHub+Integration)
-- Sources
+- [Pipelines sources](https://www.jfrog.com/confluence/display/JFROG/Managing+Pipeline+Sources):  
+A Pipeline Source represents a source control repository (such as GitHub or BitBucket) where Pipelines definition files can be found.
+- [Pipelines resources](https://www.jfrog.com/confluence/display/JFROG/Pipelines+Resources)
 
 ## Pipelines demos
 
@@ -20,3 +22,9 @@
 
  - Link:  
  [managing node pools](https://www.jfrog.com/confluence/display/JFROG/Managing+Pipelines+Node+Pools)
+
+
+ ## Integrations
+
+ - Get access token from GitHub:  
+ settings->Developer Settings->Personal access tokens
