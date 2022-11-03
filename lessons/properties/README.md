@@ -15,12 +15,12 @@
 
 - Get them:  
 **curl -u "yuval:Yuval123#" "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=1"**  
-**curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=2"**
-**curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=3"**
-**curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=4"**
+**curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=2"**  
+**curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=3"**  
+**curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=4"**  
 
 
 http://artifactory.t5.devopsherpas.com/artifactory/maven-dev-local/org
 
 
-curl -u yuval:Yuval123# http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?thename:yuval
+curl -u yuval:Yuval123# http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?thename:yuval  
