@@ -18,7 +18,7 @@ Here are some uses of curl tool:
 - Complete system info ([doc](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API#ArtifactoryRESTAPI-SystemInfo)):  
 **curl -u yuval:'Yuval123#' http://artifactory.t5.devopsherpas.com/artifactory/api/system**
 - Deploy a file with properties:  
-**curl -T file.txt -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt;prop1=val1'**
+**curl -T file.txt -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt;prop1=val1;prop2=val2'**
 - Download a file:  
 **curl  -uyuval:'Yuval123#' "http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt"**
 - Setting some properties on a directory using matrix parameters:  
