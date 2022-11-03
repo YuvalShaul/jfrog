@@ -18,6 +18,8 @@
 **curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=2"**  
 **curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=3"**  
 **curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=4"**  
+- Setting some properties on a directory using matrix parameters:  
+**curl -X PUT -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/api/storage/maven-dev-local/com?properties=os=win,linux;qa=done&recursive=1'**
 - Deploy a file with properties:  
 **curl -T file.txt -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt;prop1=val1;prop2=val2'**
 
