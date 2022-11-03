@@ -18,7 +18,18 @@
 **curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=2"**  
 **curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=3"**  
 **curl -u yuval:Yuval123# "http://artifactory.t5.devopsherpas.com/artifactory/api/search/prop?prop1=4"**  
+- Deploy a file with properties:  
+**curl -T file.txt -uyuval:'Yuval123#'  'http://artifactory.t5.devopsherpas.com/artifactory/generic-local/myfile.txt;prop1=val1;prop2=val2'**
 
+
+
+
+
+
+
+- demonstrate with the browser:
+  - http://artifactory.t5.devopsherpas.com/ui/native/maven-prop
+  - 
 
 http://artifactory.t5.devopsherpas.com/artifactory/maven-dev-local/org
 
